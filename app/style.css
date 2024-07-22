@@ -1,0 +1,92 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    background-image: url('mylogo.jpg');
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    margin: auto;
+    /* border-radius: 50%; */
+}
+body{
+    /* background-image: linear-gradient(rgb(93, 93, 177),rgb(243, 209, 209)) ; */
+    /* background: url('bkg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+    background-color: black;
+}
+h1{ 
+    margin-top: 30px;
+    font-size: 3.5rem;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+.container{
+    max-width: 1000px;
+    /* background-color: green; */
+    margin: auto;
+    height:69vh;
+    /* margin-top: 10px; */
+    overflow-y: auto;
+    margin-bottom: 20px;
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+}
+.msg{
+    font-size: 2rem;
+    width: 40%;
+   height: 70px;
+    margin-top: 20px;
+    margin-left: 40px; 
+   padding-top: 30px;
+   padding-left: 40px;
+/*     margin-left: 40px; */
+   background-color: rgb(229, 222, 222);
+   border: solid black 1.5px;
+   border-radius: 15px;
+   
+
+}
+.left{
+        float: left;
+        clear: both;
+        background-color:rgb(121, 121, 218); 
+        color: white;
+}
+.right{
+        float: right;
+        clear: both;
+        margin-right: 30px;
+        background-color: white;
+        color: black;
+}
+#send-msg{
+        display: block;
+        margin: auto;
+        max-width: 1000px;
+        width: 100%;
+}
+#messageinput{
+    width: 90%;
+    height: 60px;
+    border-radius: 10px;
+    border: 2px solid grey;
+    margin-top: 15px;
+    font-size: 2rem;
+}
+.btn{
+    cursor: pointer;
+    width: 9%;
+    height: 60px;
+    font-size: 1.7rem;
+    border: 2px solid grey;
+    border-radius: 10px;
+    background-color: rgb(85, 85, 240);
+    color: white;
+}
